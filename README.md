@@ -1,4 +1,4 @@
-# Azure Certification Learning Path
+# Azure from Novice to Expert
 
 An Azure-only credential journey for technical consultants and solution architects who are new to Azure.
 
