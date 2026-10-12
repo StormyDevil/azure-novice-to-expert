@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Follow an Azure-only learning journey from cloud fundamentals to expert architect and DevOps credentials.">
+    <meta name="theme-color" content="#071a2d">
+    <title>Azure from Novice to Expert</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to the learning journey</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Azure from Novice to Expert home">
+        <span class="brand-mark" aria-hidden="true">AZ</span>
+        <span>Azure from Novice to Expert</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#journey">Journey</a>
+        <a href="#credentials">Credentials</a>
+        <a href="#profile">Learn profile</a>
+        <a class="nav-cta" href="https://github.com/StormyDevil/azure-novice-to-expert">View on GitHub</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero">
+        <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+        <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow"><span></span> An Azure-only credential journey</p>
+          <h1>Build your Azure capability.<br><em>One meaningful step at a time.</em></h1>
+          <p class="hero-copy">
+            A practical route for technical consultants and solution architects who are new to Azure.
+            Start with the platform, add data and AI, then mature your application and DevOps expertise.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#journey">Start the journey <span aria-hidden="true">→</span></a>
+            <a class="button button-secondary" href="https://learn.microsoft.com/users/me/">Open Microsoft Learn</a>
+          </div>
+          <div class="hero-meta" aria-label="Journey summary">
+            <div><strong>5</strong><span>learning stages</span></div>
+            <div><strong>11</strong><span>certification exams</span></div>
+            <div><strong>12</strong><span>Applied Skills options</span></div>
+            <div><strong>2</strong><span>expert outcomes</span></div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="cloud-core">
+            <svg viewBox="0 0 84 58" role="img">
+              <path d="M20 50h45c9 0 15-6 15-14 0-7-5-13-12-14C65 10 56 3 44 3 31 3 21 12 20 25 10 26 4 31 4 39c0 7 7 11 16 11Z"/>
+            </svg>
+            <span>Azure</span>
+          </div>
+          <span class="orbit-label label-foundation">Foundation</span>
+          <span class="orbit-label label-infra">Infrastructure</span>
+          <span class="orbit-label label-data">Data</span>
+          <span class="orbit-label label-ai">AI</span>
+          <span class="orbit-label label-apps">Apps</span>
+        </div>
+      </section>
+
+      <section class="intro section-shell">
+        <div class="section-heading">
+          <p class="eyebrow dark"><span></span> Why this path works</p>
+          <h2>Learn the platform before you architect the solution.</h2>
+        </div>
+        <div class="principles">
+          <article>
+            <span class="principle-number">01</span>
+            <h3>Platform first</h3>
+            <p>Understand identity, governance, networking, compute, storage, and monitoring before building on top of them.</p>
+          </article>
+          <article>
+            <span class="principle-number">02</span>
+            <h3>Breadth plus practice</h3>
+            <p>Use Certifications to prove role-wide capability and Applied Skills to demonstrate focused, hands-on outcomes.</p>
+          </article>
+          <article>
+            <span class="principle-number">03</span>
+            <h3>Progress, not a deadline</h3>
+            <p>Move forward when you can explain the concepts, complete the practical work, and pass the relevant assessment.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="journey" class="journey-section">
+        <div class="section-shell">
+          <div class="journey-heading">
+            <div class="section-heading">
+              <p class="eyebrow"><span></span> Your learning journey</p>
+              <h2>From first principles to expert practice.</h2>
+              <p>Follow the stages in order. Check off credentials as you earn them—your progress stays in this browser.</p>
+            </div>
+            <div class="progress-card">
+              <div class="progress-label">
+                <span>Your progress</span>
+                <strong id="progress-value">0%</strong>
+              </div>
+              <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+              <button id="reset-progress" class="text-button" type="button">Reset progress</button>
+            </div>
+          </div>
+
+          <div class="timeline">
+            <article class="stage stage-foundation" id="foundation">
+              <div class="stage-marker"><span>0</span></div>
+              <div class="stage-card">
+                <div class="stage-topline">
+                  <span class="stage-kicker">Stage 0 · Foundation</span>
+                  <span class="level-badge">Beginner</span>
+                </div>
+                <h3>Learn the language of Azure</h3>
+                <p>Build a shared vocabulary for cloud concepts, core services, management, governance, pricing, and support.</p>
+                <div class="credential-grid">
+                  <label class="credential primary">
+                    <input type="checkbox" data-progress="az-900">
+                    <span class="checkmark" aria-hidden="true"></span>
+                    <span class="credential-copy">
+                      <small>Microsoft Certification</small>
+                      <strong>AZ-900 · Azure Fundamentals</strong>
+                      <span>Cloud concepts and core Azure services</span>
+                    </span>
+                    <a href="https://learn.microsoft.com/credentials/certifications/azure-fundamentals/" aria-label="Open Azure Fundamentals on Microsoft Learn">↗</a>
+                  </label>
+                </div>
+                <a class="stage-guide" href="https://github.com/StormyDevil/azure-novice-to-expert/blob/main/docs/00-foundation.md">Explore the foundation guide <span>→</span></a>
+              </div>
+            </article>
+
+            <article class="stage stage-infrastructure" id="infrastructure">
+              <div class="stage-marker"><span>1</span></div>
+              <div class="stage-card">
+                <div class="stage-topline">
+                  <span class="stage-kicker">Stage 1 · Infrastructure</span>
+                  <span class="level-badge">Intermediate → Expert</span>
+                </div>
+                <h3>Operate Azure, then design it</h3>
+                <p>Develop practical administration depth before turning business requirements into resilient Azure architectures.</p>
+                <div class="credential-grid">
+                  <label class="credential primary">
+                    <input type="checkbox" data-progress="az-104">
+                    <span class="checkmark" aria-hidden="true"></span>
+                    <span class="credential-copy">
+                      <small>Microsoft Certification</small>
+                      <strong>AZ-104 · Azure Administrator</strong>
+                      <span>Core hands-on infrastructure milestone</span>
+                    </span>
+                    <a href="https://learn.microsoft.com/credentials/certifications/azure-administrator/" aria-label="Open Azure Administrator on Microsoft Learn">↗</a>
+                  </label>
+                  <label class="credential optional">
+                    <input type="checkbox" data-progress="az-700">
+                    <span class="checkmark" aria-hidden="true"></span>
+                    <span class="credential-copy">
+                      <small>Optional depth</small>
+                      <strong>AZ-700 · Azure Network Engineer</strong>
+                      <span>Hybrid networking, routing, and security</span>
+                    </span>
+                    <a href="https://learn.microsoft.com/credentials/certifications/azure-network-engineer-associate/" aria-label="Open Azure Network Engineer on Microsoft Learn">↗</a>
+                  </label>
+                  <label class="credential expert">
+                    <input type="checkbox" data-progress="az-305">
+                    <span class="checkmark" aria-hidden="true"></span>
+                    <span class="credential-copy">
+                      <small>Expert outcome</small>
+                      <strong>AZ-305 · Azure Solutions Architect</strong>
+                      <span>Design secure and reliable Azure solutions</span>
+                    </span>
+                    <a href="https://learn.microsoft.com/credentials/certifications/azure-solutions-architect/" aria-label="Open Azure Solutions Architect on Microsoft Learn">↗</a>
+                  </label>
+                </div>
+                <details class="applied-skills">
+                  <summary>Recommended Applied Skills <span>3 focused credentials</span></summary>
+                  <ul>
+                    <li><a href="https://learn.microsoft.com/credentials/applied-skills/deploy-and-administer-linux-virtual-machines-on-microsoft-azure/">Deploy and administer Linux virtual machines</a></li>
+                    <li><a href="https://learn.microsoft.com/credentials/applied-skills/secure-storage-azure-files-azure-blob-storage/">Secure Azure Files and Blob Storage</a></li>
+                    <li><a href="https://learn.microsoft.com/credentials/applied-skills/deploy-and-configure-azure-monitor/">Deploy and configure Azure Monitor</a></li>
+                  </ul>
+                </details>
+                <a class="stage-guide" href="https://github.com/StormyDevil/azure-novice-to-expert/blob/main/docs/01-infrastructure.md">Explore the infrastructure guide <span>→</span></a>
+              </div>
+            </article>
+
+            <article class="stage stage-data" id="data">
+              <div class="stage-marker"><span>2</span></div>
+              <div class="stage-card">
+                <div class="stage-topline">
+                  <span class="stage-kicker">Stage 2 · Data</span>
+                  <span class="level-badge">Beginner → Intermediate</span>
+                </div>
+                <h3>Turn data into a design decision</h3>
+                <p>Understand Azure data workloads, then develop practical depth in designing and operating Azure SQL solutions.</p>
+                <div class="credential-grid">
+                  <label class="credential primary">
+                    <input type="checkbox" data-progress="dp-900">
+                    <span class="checkmark" aria-hidden="true"></span>
+                    <span class="credential-copy">
+                      <small>Microsoft Certification</small>
+                      <strong>DP-900 · Azure Data Fundamentals</strong>
+                      <span>Relational, non-relational, and analytical data</span>
+                    </span>
+                    <a href="https://learn.microsoft.com/credentials/certifications/azure-data-fundamentals/" aria-label="Open Azure Data Fundamentals on Microsoft Learn">↗</a>
+                  </label>
+                  <label class="credential primary">
+                    <input type="checkbox" data-progress="dp-300">
+                    <span class="checkmark" aria-hidden="true"></span>
+                    <span class="credential-copy">
+                      <small>Microsoft Certification</small>
+                      <strong>DP-300 · Azure Database Administrator</strong>
+                      <span>Operate secure and resilient Azure SQL</span>
+                    </span>
+                    <a href="https://learn.microsoft.com/credentials/certifications/azure-database-administrator-associate/" aria-label="Open Azure Database Administrator on Microsoft Learn">↗</a>
+                  </label>
+                </div>
+                <details class="applied-skills">
+                  <summary>Recommended Applied Skills <span>2 focused credentials</span></summary>
+                  <ul>
+                    <li><a href="https://learn.microsoft.com/credentials/applied-skills/develop-data-driven-applications-by-using-microsoft-azure-sql-database/">Develop data-driven apps with Azure SQL</a></li>
+                    <li><a href="https://learn.microsoft.com/credentials/applied-skills/configure-and-migrate-to-azure-database-for-postgresql/">Configure and migrate to Azure Database for PostgreSQL</a></li>
+                  </ul>
+                </details>
+                <a class="stage-guide" href="https://github.com/StormyDevil/azure-novice-to-expert/blob/main/docs/02-data.md">Explore the data guide <span>→</span></a>
+              </div>
+            </article>
+
+            <article class="stage stage-ai" id="ai">
+              <div class="stage-marker"><span>3</span></div>
+              <div class="stage-card">
+                <div class="stage-topline">
+                  <span class="stage-kicker">Stage 3 · AI</span>
+                  <span class="level-badge">Beginner → Intermediate</span>
+                </div>
+                <h3>Build AI solutions you can operate</h3>
+                <p>Progress from AI concepts to apps and agents, then build repeatable MLOps and GenAIOps practices.</p>
+                <div class="credential-grid">
+                  <label class="credential primary">
+                    <input type="checkbox" data-progress="ai-901">
+                    <span class="checkmark" aria-hidden="true"></span>
+                    <span class="credential-copy">
+                      <small>Microsoft Certification</small>
+                      <strong>AI-901 · Azure AI Fundamentals</strong>
+                      <span>Modern AI concepts and Azure capabilities</span>
+                    </span>
+                    <a href="https://learn.microsoft.com/credentials/certifications/azure-ai-fundamentals/" aria-label="Open Azure AI Fundamentals on Microsoft Learn">↗</a>
+                  </label>
+                  <label class="credential primary">
+                    <input type="checkbox" data-progress="ai-103">
+                    <span class="checkmark" aria-hidden="true"></span>
+                    <span class="credential-copy">
+                      <small>Microsoft Certification</small>
+                      <strong>AI-103 · Azure AI Engineer</strong>
+                      <span>Develop AI apps and agents on Azure</span>
+                    </span>
+                    <a href="https://learn.microsoft.com/credentials/certifications/azure-ai-engineer/" aria-label="Open Azure AI Engineer on Microsoft Learn">↗</a>
+                  </label>
+                  <label class="credential primary">
+                    <input type="checkbox" data-progress="ai-300">
+                    <span class="checkmark" aria-hidden="true"></span>
+                    <span class="credential-copy">
+                      <small>Microsoft Certification</small>
+                      <strong>AI-300 · ML Operations Engineer</strong>
+                      <span>Operationalize ML and generative AI</span>
+                    </span>
+                    <a href="https://learn.microsoft.com/credentials/certifications/operationalizing-machine-learning-and-generative-ai-solutions/" aria-label="Open Machine Learning Operations Engineer on Microsoft Learn">↗</a>
+                  </label>
+                </div>
+                <details class="applied-skills">
+                  <summary>Recommended Applied Skills <span>4 focused credentials</span></summary>
+                  <ul>
+                    <li><a href="https://learn.microsoft.com/credentials/applied-skills/implement-knowledge-mining-with-azure-ai-search/">Implement knowledge mining with Azure AI Search</a></li>
+                    <li><a href="https://learn.microsoft.com/credentials/applied-skills/develop-generative-ai-solutions-with-azure-openai-service/">Develop generative AI solutions with Azure OpenAI</a></li>
+                    <li><a href="https://learn.microsoft.com/credentials/applied-skills/build-natural-language-solution-azure-ai/">Build a natural language solution with Azure AI</a></li>
+                    <li><a href="https://learn.microsoft.com/credentials/applied-skills/train-and-deploy-a-machine-learning-model-with-azure-machine-learning/">Train and manage an Azure Machine Learning model</a></li>
+                  </ul>
+                </details>
+                <a class="stage-guide" href="https://github.com/StormyDevil/azure-novice-to-expert/blob/main/docs/03-ai.md">Explore the AI guide <span>→</span></a>
+              </div>
+            </article>
+
+            <article class="stage stage-apps" id="apps">
+              <div class="stage-marker"><span>4</span></div>
+              <div class="stage-card">
+                <div class="stage-topline">
+                  <span class="stage-kicker">Stage 4 · Apps and innovation</span>
+                  <span class="level-badge">Intermediate → Expert</span>
+                </div>
+                <h3>Build, ship, observe, improve</h3>
+                <p>Develop Azure applications, choose the right hosting and integration services, and mature your delivery practices.</p>
+                <div class="credential-grid">
+                  <label class="credential primary">
+                    <input type="checkbox" data-progress="az-204">
+                    <span class="checkmark" aria-hidden="true"></span>
+                    <span class="credential-copy">
+                      <small>Microsoft Certification</small>
+                      <strong>AZ-204 · Azure Developer</strong>
+                      <span>Build and integrate Azure applications</span>
+                    </span>
+                    <a href="https://learn.microsoft.com/credentials/certifications/azure-developer/" aria-label="Open Azure Developer on Microsoft Learn">↗</a>
+                  </label>
+                  <label class="credential expert">
+                    <input type="checkbox" data-progress="az-400">
+                    <span class="checkmark" aria-hidden="true"></span>
+                    <span class="credential-copy">
+                      <small>Expert outcome</small>
+                      <strong>AZ-400 · DevOps Engineer</strong>
+                      <span>Design continuous delivery and feedback</span>
+                    </span>
+                    <a href="https://learn.microsoft.com/credentials/certifications/devops-engineer/" aria-label="Open DevOps Engineer on Microsoft Learn">↗</a>
+                  </label>
+                </div>
+                <details class="applied-skills">
+                  <summary>Recommended Applied Skills <span>3 focused credentials</span></summary>
+                  <ul>
+                    <li><a href="https://learn.microsoft.com/credentials/applied-skills/deploy-cloud-native-apps-using-azure-container-apps/">Deploy cloud-native apps with Azure Container Apps</a></li>
+                    <li><a href="https://learn.microsoft.com/credentials/applied-skills/deploy-containers-by-using-azure-kubernetes-service/">Deploy containers with Azure Kubernetes Service</a></li>
+                    <li><a href="https://learn.microsoft.com/credentials/applied-skills/automate-azure-load-testing-by-using-github-actions/">Automate Azure Load Testing with GitHub Actions</a></li>
+                  </ul>
+                </details>
+                <a class="stage-guide" href="https://github.com/StormyDevil/azure-novice-to-expert/blob/main/docs/04-apps-and-innovation.md">Explore the apps guide <span>→</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="credentials" class="credentials-section section-shell">
+        <div class="section-heading centered">
+          <p class="eyebrow dark"><span></span> Two ways to prove your skills</p>
+          <h2>Broad role capability meets focused practice.</h2>
+          <p>Certifications and Applied Skills are complementary Microsoft credentials. Use both to tell a stronger skills story.</p>
+        </div>
+        <div class="comparison">
+          <article class="comparison-card certification-card">
+            <div class="comparison-icon" aria-hidden="true">C</div>
+            <p class="card-label">Microsoft Certification</p>
+            <h3>Show you can perform across a role.</h3>
+            <ul>
+              <li>Broad coverage across several skill areas</li>
+              <li>Aligned to roles such as administrator or architect</li>
+              <li>Earned by passing a Certification exam</li>
+              <li>Associate and expert credentials require renewal</li>
+            </ul>
+            <p class="best-for"><strong>Best for:</strong> role readiness, career progression, and broad technical credibility.</p>
+          </article>
+          <div class="plus" aria-hidden="true">+</div>
+          <article class="comparison-card skills-card">
+            <div class="comparison-icon" aria-hidden="true">A</div>
+            <p class="card-label">Microsoft Applied Skills</p>
+            <h3>Show you can solve a focused scenario.</h3>
+            <ul>
+              <li>Narrow validation of one specific skill set</li>
+              <li>Aligned to a product or business challenge</li>
+              <li>Earned through a performance-based lab</li>
+              <li>Useful before, beside, or after a Certification</li>
+            </ul>
+            <p class="best-for"><strong>Best for:</strong> project readiness, hands-on evidence, and targeted upskilling.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="profile" class="profile-section">
+        <div class="section-shell profile-grid">
+          <div>
+            <p class="eyebrow"><span></span> Make your progress visible</p>
+            <h2>Your Microsoft Learn profile becomes your verified skills record.</h2>
+            <p>Keep every credential in one profile, share a complete transcript, and give employers or customers a direct way to verify your achievements.</p>
+            <a class="button button-light" href="https://learn.microsoft.com/users/me/">Open your Learn profile <span aria-hidden="true">→</span></a>
+          </div>
+          <ol class="profile-steps">
+            <li>
+              <span>1</span>
+              <div><strong>Earn</strong><p>Complete the exam or Applied Skills assessment.</p></div>
+            </li>
+            <li>
+              <span>2</span>
+              <div><strong>Verify</strong><p>Find the credential in the Credentials area of your Learn profile.</p></div>
+            </li>
+            <li>
+              <span>3</span>
+              <div><strong>Share</strong><p>Add the verification link to LinkedIn, your CV, portfolio, or email signature.</p></div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="final-cta section-shell">
+        <div>
+          <p class="eyebrow dark"><span></span> Ready when you are</p>
+          <h2>Your first step is simple: learn the Azure fundamentals.</h2>
+        </div>
+        <a class="button button-primary" href="#foundation">Begin with AZ-900 <span aria-hidden="true">→</span></a>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true">AZ</span>
+        <div><strong>Azure from Novice to Expert</strong><span>A community learning path—not an official Microsoft site.</span></div>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/StormyDevil/azure-novice-to-expert">GitHub</a>
+        <a href="https://github.com/StormyDevil/azure-novice-to-expert/blob/main/docs/credential-lifecycle.md">Credential lifecycle</a>
+        <a href="https://learn.microsoft.com/credentials/">Microsoft Credentials</a>
+      </div>
+    </footer>
+  </body>
+</html>

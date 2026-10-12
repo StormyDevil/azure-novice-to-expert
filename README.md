@@ -2,6 +2,8 @@
 
 An Azure-only credential journey for technical consultants and solution architects who are new to Azure.
 
+[Follow the interactive learning journey](https://stormydevil.github.io/azure-novice-to-expert/) or use the detailed track guides in this repository.
+
 The path starts with infrastructure, then moves through data, AI, and applications and innovation. It combines Microsoft Certifications with Microsoft Applied Skills. It is intentionally not time-based: progress when you can explain the concepts, complete the hands-on work, and pass the relevant assessment.
 
 > Credential catalog checked against Microsoft Learn on 12 October 2026. Microsoft changes exams and credentials regularly; review the [credential lifecycle guidance](docs/credential-lifecycle.md) before booking an exam.
