@@ -6,7 +6,7 @@ An Azure-only credential journey for technical consultants and solution architec
 
 The path starts with infrastructure, then moves through data, AI, and applications and innovation. It combines Microsoft Certifications with Microsoft Applied Skills. It is intentionally not time-based: progress when you can explain the concepts, complete the hands-on work, and pass the relevant assessment.
 
-> Credential catalog checked against Microsoft Learn on 12 October 2026. Microsoft changes exams and credentials regularly; review the [credential lifecycle guidance](docs/credential-lifecycle.md) before booking an exam.
+> Credential catalog checked against Microsoft Learn on 13 November 2026. Microsoft changes exams and credentials regularly; review the [credential lifecycle guidance](docs/credential-lifecycle.md) before booking an exam.
 
 ## What this repository is about
 
@@ -58,8 +58,8 @@ Microsoft notes that Applied Skills can support Certification preparation becaus
 | 0 | [Azure foundation](docs/00-foundation.md) | Microsoft Certified: Azure Fundamentals (AZ-900) |
 | 1 | [Infrastructure](docs/01-infrastructure.md) | Azure Administrator Associate, then Azure Solutions Architect Expert |
 | 2 | [Data](docs/02-data.md) | Azure Data Fundamentals, then Azure Database Administrator Associate |
-| 3 | [AI](docs/03-ai.md) | Azure AI Fundamentals, Azure AI Engineer Associate, then Machine Learning Operations Engineer Associate |
-| 4 | [Apps and innovation](docs/04-apps-and-innovation.md) | Azure Developer Associate, then DevOps Engineer Expert |
+| 3 | [AI](docs/03-ai.md) | Azure AI Fundamentals, Azure AI Apps and Agents Developer Associate, then Machine Learning Operations Engineer Associate |
+| 4 | [Apps and innovation](docs/04-apps-and-innovation.md) | Azure AI Cloud Developer Associate, then DevOps Engineer Expert |
 
 ## Recommended route
 
@@ -76,7 +76,7 @@ flowchart LR
 
     I3 --> D["🗄️ Stage 2<br/><b>Data</b><br/>DP-900 → DP-300"]
     D --> A["🤖 Stage 3<br/><b>AI</b><br/>AI-901 → AI-103 → AI-300"]
-    A --> APP["🚀 Stage 4<br/><b>Apps and innovation</b><br/>AZ-204 → AZ-400"]
+    A --> APP["🚀 Stage 4<br/><b>Apps and innovation</b><br/>AI-200 → AZ-400"]
     APP --> OUT(("Azure<br/>architect"))
 
     classDef start fill:#ffffff,stroke:#0078d4,stroke-width:3px,color:#0078d4;
@@ -101,10 +101,10 @@ flowchart LR
 | ☁️ Foundation | Learn the Azure language and core platform concepts | Foundational knowledge |
 | 🛠️ Infrastructure | Operate, connect, govern, and design Azure environments | Administrator through expert architect capability |
 | 🗄️ Data | Understand data workloads and administer Azure SQL | Data foundations and database operations |
-| 🤖 AI | Build AI apps and agents, then operationalize AI systems | AI engineering and AI operations |
-| 🚀 Apps and innovation | Build Azure applications and mature delivery practices | Developer through expert DevOps capability |
+| 🤖 AI | Build AI apps and agents, then operationalize AI systems | AI app development and AI operations |
+| 🚀 Apps and innovation | Build AI-enabled Azure applications and mature delivery practices | AI cloud development through expert DevOps capability |
 
-The route is guidance, not a claim that every exam has a formal prerequisite. Solid arrows show the recommended learning order; dotted arrows show optional depth. The track pages distinguish required prerequisites from recommended preparation.
+The route is guidance, not a claim that every exam has a formal prerequisite. Solid arrows show the recommended learning order; dotted arrows show optional depth. AZ-204 retired on 31 July 2026 and was replaced by AI-200. AI-200 is the recommended current developer credential in this route; do not assume it satisfies the AZ-400 prerequisite unless Microsoft's current [DevOps Engineer Expert page](https://learn.microsoft.com/credentials/certifications/devops-engineer/) lists it. The track pages distinguish required prerequisites from recommended preparation.
 
 ## How to use this repository
 
