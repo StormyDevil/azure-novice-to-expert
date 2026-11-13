@@ -28,7 +28,8 @@ For each review:
 | Retired exam | Retirement | Current route |
 |---|---|---|
 | DP-100 | 1 June 2026 | AI-300, Machine Learning Operations Engineer Associate |
-| AI-102 | 30 June 2026 | AI-103, Azure AI Engineer Associate |
-| AI-900 | Replaced in 2026 | AI-901, Azure AI Fundamentals |
+| AI-102 | 30 June 2026 | AI-103, Azure AI Apps and Agents Developer Associate |
+| AI-900 | 30 June 2026 | AI-901, Azure AI Fundamentals |
+| AZ-204 | 31 July 2026 | AI-200, Azure AI Cloud Developer Associate |
 
 Use Microsoft's current credential pages as the source of truth if a transition note and Microsoft Learn disagree.

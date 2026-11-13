@@ -2,15 +2,17 @@
 
 ## Goal
 
-Develop Azure applications, choose suitable hosting and integration services, and progress to expert-level DevOps practices.
+Develop AI-enabled Azure applications, choose suitable hosting and integration services, and progress to expert-level DevOps practices.
 
-## 1. Azure Developer Associate
+## 1. Azure AI Cloud Developer Associate
 
-- Exam: AZ-204, Developing Solutions for Microsoft Azure.
+- Exam: AI-200, Developing AI Cloud Solutions on Azure.
 - Level: Intermediate.
-- Credential: [Azure Developer Associate](https://learn.microsoft.com/credentials/certifications/azure-developer/).
-- Exam scope: [AZ-204 study guide](https://learn.microsoft.com/credentials/certifications/resources/study-guides/az-204).
-- Focus: compute, storage, security, monitoring, troubleshooting, APIs, and event- and message-based integration.
+- Credential: [Azure AI Cloud Developer Associate](https://learn.microsoft.com/credentials/certifications/azure-ai-cloud-developer-associate/).
+- Exam scope: [AI-200 study guide](https://learn.microsoft.com/credentials/certifications/resources/study-guides/ai-200).
+- Focus: developing containerized solutions, integrating AI with Azure data and services, and securing, monitoring, and troubleshooting cloud solutions.
+
+AI-200 replaced AZ-204, which retired on 31 July 2026. The current credential emphasizes AI cloud solutions; review its study guide rather than relying on older AZ-204 exam material.
 
 ### Recommended Applied Skills
 
@@ -24,7 +26,7 @@ Develop Azure applications, choose suitable hosting and integration services, an
 - Level: Expert certification.
 - Credential: [DevOps Engineer Expert](https://learn.microsoft.com/credentials/certifications/devops-engineer/).
 - Exam scope: [AZ-400 study guide](https://learn.microsoft.com/credentials/certifications/resources/study-guides/az-400).
-- Required prerequisite: earn either Azure Administrator Associate or Azure Developer Associate.
+- Required prerequisite: Microsoft's page has listed Azure Administrator Associate or Azure Developer Associate. AZ-204 retired on 31 July 2026; check the current [DevOps Engineer Expert page](https://learn.microsoft.com/credentials/certifications/devops-engineer/) before relying on a developer credential, and do not assume AI-200 is accepted unless Microsoft lists it.
 
 Focus on source control, build and release pipelines, security and compliance, instrumentation, and continuous feedback.
 
